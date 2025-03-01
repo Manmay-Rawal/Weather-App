@@ -1,12 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family:sans-serif;
     box-sizing: border-box;
 }
 
 body {
     background-color: black;
+    text-align: -webkit-center;
 }
 
 .card {
@@ -102,10 +103,14 @@ body {
         padding: 40px 20px;
     }
     .search input {
+        height: 3rem;
         padding: 10px 15px;
         font-size: 16px;
     }
-
+    .search button {
+     height: 3rem;
+     width: 4rem;   
+    }
     .weather h1 {
         font-size: 60px;
     }
